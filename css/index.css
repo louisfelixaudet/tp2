@@ -1,0 +1,32 @@
+.choosebar {
+    margin: 100px 0 0 200px;
+    width: 89%;
+    height: 450px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.choosebar img {
+    width: 75%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 2px solid rgb(red, green, blue);
+    transition: all ease-in-out 500ms;
+}
+
+.choosebar img:hover {
+    width: 100%;
+}
+
+body {
+    background-image: url(/image/the-parthenon-at-athens-j-buhlmann.jpg);
+
+}
+
+a {
+    outline: none;
+    text-decoration: none;
+    color: black;
+}

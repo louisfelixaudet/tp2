@@ -1,0 +1,41 @@
+
+body{
+    background-color: black;
+}
+
+
+#main_marc{
+    background-image: url(/image/Delacroix-Marc_Aurèle-MBA-Lyon.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 5.0;
+} 
+
+img{
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    margin: 5px;
+}
+
+.tab{
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+}
+
+#img_marc{
+    flex-grow: 0.1;
+}
+
+.tab > div{
+    margin-right: 10em;
+}
+
+p{
+    background-color: black ;
+    text-align: center;
+    color: gold;
+    margin: 15em;
+}

@@ -1,0 +1,37 @@
+#conteneur{
+    display: grid;
+    grid-template-columns: repeat(4, 25%) ;
+    grid-template-rows: 150px 250px 250px 250px 100px;
+    grid-template-areas: 
+    "header header header header"
+    "main main main aside"
+    "main main main aside"
+    "main main main aside"
+    "footer footer footer footer";
+}
+
+header{
+    grid-area: header;
+    background-color: pink;
+    margin:1%;
+}
+
+
+
+main{
+    grid-area: main;
+    background-color: pink;
+    margin: 1%;
+}
+
+aside{
+    grid-area: aside;
+    background-color: pink;
+    margin: 1%;
+}
+
+footer{
+    grid-area: footer;
+    background-color: pink;
+    margin: 1%
+}
