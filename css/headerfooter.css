@@ -14,6 +14,7 @@ header{
     grid-area: header;
     background-color: pink;
     margin:1%;
+    border-radius: 50px;
 }
 
 
@@ -34,4 +35,34 @@ footer{
     grid-area: footer;
     background-color: pink;
     margin: 1%
+}
+
+header{
+    grid-area: header;
+    background-color: pink;
+    margin:1%;
+    border-radius: 50px;
+}
+
+
+main{
+    grid-area: main;
+    background-color: pink;
+    margin: 1%;
+}
+
+aside{
+    grid-area: aside;
+    background-color: pink;
+    margin: 1%;
+}
+
+footer{
+    grid-area: footer;
+    background-color: pink;
+    margin: 1%
+}
+
+.color{
+    background-color: bisque;
 }
